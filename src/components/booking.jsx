@@ -327,7 +327,7 @@ class Booking extends React.Component {
                                     </label>
                                     <textarea
                                     className="text-dark p-1 rounded-sm max-w-[80vw]"
-                                    onChange={() => {
+                                    onChange={(event) => {
                                         this.setState({remark: event.target.value});
                                         this.setState({charCount: this.charCount(event.target.value)})
                                     }}
