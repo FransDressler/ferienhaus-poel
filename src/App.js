@@ -11,6 +11,8 @@ import Booking from './components/booking.jsx';
 import SignIn from './components/signin.jsx';
 import Overview from './components/overview.jsx';
 import Location from './components/location.jsx';
+import Impressum from './components/impressum';
+import Regulation from './components/privacyRegulation';
 
 import './styles/styles.scss'
 
@@ -38,6 +40,8 @@ class App extends React.Component {
         <Route path="/kontakt" element={<Contact/>}/>
         <Route path="/buchen" element={<Booking/>}/>
         <Route path="/standorte" element={<Location/>}/>
+        <Route path="/datenschutzrichtlinien" element={<Regulation/>} />
+        <Route path="/impressum" element={<Impressum/>} />
         <Route path="/anmeldung" element={this.state.isSignedIn ? <Overview/> : <SignIn changeSignIn={this.changeSignIn}/>} />
       </Routes>
       <Footer/> 

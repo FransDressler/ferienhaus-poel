@@ -17,15 +17,15 @@ function Contact() {
                         rel="noreferrer"
                         target="_blank"
                         class="cta-btn cta-btn--resume"
-                        href="mailto:coolehäuser@gmail.com"
-                        >coolehäuser@gmail.com
+                        href="mailto:frans.dressler@gmx.com"
+                        >frans.dressler@gmx.com
                         </a> <br />
                         <a
                         rel="noreferrer"
                         target="_blank"
                         class="cta-btn cta-btn--resume"
-                        href="tel:+49023824"
-                        >+49023824
+                        href="tel:+491727418268"
+                        >+49 172 7418268
                         </a>
                 </div>
             </div>
