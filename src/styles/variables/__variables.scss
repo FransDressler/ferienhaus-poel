@@ -1,0 +1,48 @@
+// colors
+
+$clr-accent-light: #e9edc9;
+$clr-accent-med-1: #ccd5ae;
+$clr-accent-med-2: #888e5c;
+$clr-accent-dark: #3b3f1a;
+$clr-main-bright: #fefae0;
+$clr-main-light: #faedcd;
+$clr-main-med: #d4a373;
+$clr-main-dark: #51371f;
+
+// font sizes
+
+/* font-sizes */
+$fs-1000: clamp(5rem, 8vw + 1rem, 9.375rem);
+$fs-900: clamp(3rem, 5vw + 1rem, 7.5rem);
+$fs-800: 3.5rem;
+$fs-700: 1.5rem;
+$fs-600: 1rem;
+$fs-500: 1rem;
+$fs-400: 0.9375rem;
+$fs-300: 1rem;
+$fs-200: 0.875rem;
+
+$ff-1: 'Playfair Display', sans-serif;
+$ff-2: 'Josefin Sans', sans-serif;
+$ff-3: 'Montserrat', sans-serif;
+
+@media (min-width: 35em) {
+    $fs-800: 5rem;
+    $fs-700: 2.5rem;
+    $fs-600: 1.5rem;
+    $fs-500: 1.25rem;
+    $fs-400: 1rem;
+}
+
+@media (min-width: 45em) {
+    /* font-sizes */
+    $fs-800: 6.25rem;
+    $fs-700: 3.5rem;
+    $fs-600: 2rem;
+    $fs-500: 1.75rem;
+    $fs-400: 1.125rem;
+}
+
+// ! Breakpoints
+
+$breakpoint-tablet: 720px;

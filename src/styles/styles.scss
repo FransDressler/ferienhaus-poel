@@ -1,0 +1,30 @@
+// ! Importing reset
+@import './general/__reset.scss';
+
+// ? Importing variables
+@import './variables/__variables.scss';
+@import './general/__root.scss';
+
+// ? Importing utility
+@import './utility/__general.scss';
+@import './utility/__borders.scss';
+@import './utility/__flexbox.scss';
+@import './utility/__grid.scss';
+@import './utility/__flow.scss';
+@import './utility/__buttons.scss';
+
+// ? Import Typography
+@import './typography/__typography.scss';
+
+// ? Import Backgrounds
+@import './backgrounds/__backgrounds.scss';
+
+// ? Importing tailwind
+@import './tailwind/__tailwind.scss';
+
+// * Importing Components
+@import './components/home/__home.scss';
+@import './components/navigation/__navigation.scss';
+@import './components/footer/__footer.scss';
+@import './components/houses/__houses.scss';
+@import './components/contact/__contact.scss';

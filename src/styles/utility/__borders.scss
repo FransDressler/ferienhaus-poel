@@ -1,0 +1,25 @@
+
+
+.border {
+    border: 2px solid var(--b-color, red)
+}
+
+.b-red {
+    --b-color: red;
+}
+
+.b-green {
+    --b-color: green;
+}
+
+.b-blue {
+    --b-color: blue;
+}
+
+.b-yellow {
+    --b-color: yellow;
+}
+
+.b-purple {
+    --b-color: purple;
+}

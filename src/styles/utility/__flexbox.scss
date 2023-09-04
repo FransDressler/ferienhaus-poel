@@ -1,0 +1,55 @@
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+//  !flex direction
+.f-dir-col {
+    flex-direction: column;
+}
+.f-dir-row {
+    flex-direction: row;
+}
+
+
+// !align
+.align-center {
+    align-items: center;
+}
+.align-space-between {
+    align-items: space-between;
+}
+.align-space-around {
+    align-items: space-around;
+}
+.align-space-evenly {
+    align-items: space-evenly;
+}
+
+// !justify
+.justify-center {
+    justify-content: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.justify-space-around {
+    justify-content: space-around;
+}
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+.justify-left {
+    justify-content: left;
+}
+.justify-right {
+    justify-content: right;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-no-wrap {
+    flex-wrap: nowrap;
+}

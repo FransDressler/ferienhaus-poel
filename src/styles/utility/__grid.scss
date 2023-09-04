@@ -1,0 +1,8 @@
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.center-items {
+    place-items: center;
+}

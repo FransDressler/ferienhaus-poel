@@ -1,0 +1,50 @@
+body {
+    font-family: $ff-3;
+    letter-spacing: .2px;
+  }  
+
+//! Font colors
+
+.text-white {color: white}
+.text-accent-light {color: $clr-accent-light}
+.text-accent-med-1 {color: $clr-accent-med-1}
+.text-accent-med-2 {color: $clr-accent-med-2}
+.text-accent-dark {color: $clr-accent-dark}
+.text-main-bright {color: $clr-main-bright}
+.text-main-light {color: $clr-main-light}
+.text-main-med {color: $clr-main-med}
+.text-main-dark {color: $clr-main-dark}
+
+// ! Font Family
+
+.ff-1{font-family: $ff-1}
+.ff-2{font-family: $ff-2}
+.ff-3{font-family: $ff-3}
+
+// ? others
+.letter-spacing-1 { letter-spacing: 4.75px; } 
+.letter-spacing-2 { letter-spacing: 2.7px; } 
+.letter-spacing-3 { letter-spacing: 2.35px; } 
+.letter-spacing-4 { letter-spacing: 1.5px; } 
+.letter-spacing-5 { letter-spacing: 1px; } 
+
+.uppercase { text-transform: uppercase; }
+
+// * Font sizes
+.fs-1000 { font-size: $fs-1000; }
+.fs-900 { font-size: $fs-900; }
+.fs-800 { font-size: $fs-800; }
+.fs-700 { font-size: $fs-700; }
+.fs-600 { font-size: $fs-600; }
+.fs-500 { font-size: $fs-500; }
+.fs-400 { font-size: $fs-400; }
+.fs-300 { font-size: $fs-300; }
+.fs-200 { font-size: $fs-200; }
+
+.fs-1000,
+.fs-900,
+.fs-800,
+.fs-700,
+.fs-600 {
+    line-height: 1.1;
+}

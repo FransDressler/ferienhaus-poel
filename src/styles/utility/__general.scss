@@ -1,0 +1,36 @@
+.container {
+    padding-inline: 2em;
+    margin-inline: auto;
+    max-width: 80rem;
+}
+
+.container-full {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sr-only {
+    position: absolute; 
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px; 
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+  }
+  .h-pointer:hover {
+    cursor: pointer;
+  }
+
+// defining gap
+
+.gap--s {--gap: .75rem;}
+.gap--m {--gap: 1.5rem;}
+.gap--l {--gap: 3rem;}
+.gap--xl {--gap: 5rem;}
