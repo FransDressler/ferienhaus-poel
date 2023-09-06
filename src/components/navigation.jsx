@@ -4,7 +4,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-teal-50/30 backdrop-blur-md p-6 fixed w-screen z-50 mt-0 lg:bg-transparent lg:backdrop-blur-none">
+        <nav className="flex items-center justify-between flex-wrap bg-teal-50/30 backdrop-blur-md p-6 fixed w-screen  mt-0 lg:bg-transparent lg:backdrop-blur-none" style={{zIndex: '20'}}>
             <div className="block lg:hidden">
                 <button className="flex items-center px-3 py-2 rounded text-gray-200 border-gray-400 hover:text-white" onClick={() => setIsOpen(!isOpen)}>
                   {isOpen ?  

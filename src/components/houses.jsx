@@ -6,7 +6,7 @@ import { SliderDataHouse1 } from './sliderDataHouse1';
 import { SliderDataHouse2 } from './sliderDataHouse2';
 
 
-function Home() {
+function Houses() {
   
   return (
     
@@ -32,7 +32,7 @@ function Home() {
                 Informationen:
                 <ul className="list-disc">
                   <li className="ml-7">2 Schlafzimmer (3 Betten)</li>
-                  <li className="ml-7">90qm</li>
+                  <li className="ml-7">110qm</li>
                   <li className="ml-7">max. Anzahl an Personen: 5</li>
                 </ul>
                </p>
@@ -69,4 +69,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Houses;

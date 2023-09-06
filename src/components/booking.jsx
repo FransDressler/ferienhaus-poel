@@ -200,21 +200,21 @@ class Booking extends React.Component {
                     </div>
                     <div className="flex flex-col  mt-3">
                         <div className="flex flex-wrap gap-3">
-                            <p className="ff-sans-normal text-lg items-centers w-96"><span className="font-semibold">Brauchen sie Bettwäsche?</span> (12€ pro Person)</p>
+                            <p className="ff-sans-normal text-lg items-centers w-96"><span className="font-semibold">Brauchen Sie Bettwäsche?</span> (12€ pro Person)</p>
                             { this.state.laundry ?     
                                         <i className="fa-solid fa-circle-check cursor-pointer fa-2x" onClick={() => this.setState({laundry:false,availableHouses:[],noHousesAvailable: ''})}></i> :
                                         <i className="fa-regular fa-circle cursor-pointer fa-2x" onClick={() => this.setState({laundry:true,availableHouses:[],noHouseAvailable: ''})}></i>
                             }
                         </div>
                         <div className="flex flex-wrap gap-3">
-                            <p className="ff-sans-normal text-lg items-centers w-96"><span className="font-semibold">Brauchen sie Handtücher?</span> (10€ pro Person)</p>
+                            <p className="ff-sans-normal text-lg items-centers w-96"><span className="font-semibold">Brauchen Sie Handtücher?</span> (10€ pro Person)</p>
                             { this.state.towels ?     
                                         <i className="fa-solid fa-circle-check cursor-pointer fa-2x" onClick={() => this.setState({towels:false,availableHouses:[],noHousesAvailable: ''})}></i> :
                                         <i className="fa-regular fa-circle cursor-pointer fa-2x" onClick={() => this.setState({towels:true,availableHouses:[],noHouseAvailable: ''})}></i>
                             }
                         </div>
                         <div className="flex flex-wrap gap-3">
-                            <p className="ff-sans-normal text-lg items-centers w-96"><span className="font-semibold">Benötigen sie Kurtaxe?</span> (2,50€ pro Person)</p>
+                            <p className="ff-sans-normal text-lg items-centers w-96"><span className="font-semibold">Benötigen Sie Kurtaxe?</span> (2,50€ pro Person)</p>
                             { this.state.visitorsTax ?     
                                         <i className="fa-solid fa-circle-check cursor-pointer fa-2x" onClick={() => this.setState({visitorsTax:false,availableHouses:[],noHousesAvailable: ''})}></i> :
                                         <i className="fa-regular fa-circle cursor-pointer fa-2x" onClick={() => this.setState({visitorsTax:true,availableHouses:[],noHouseAvailable: ''})}></i>

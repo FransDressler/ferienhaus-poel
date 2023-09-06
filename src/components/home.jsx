@@ -1,5 +1,97 @@
 import React from 'react';
 
+function Testimonials() {
+  return(
+    <section class="bg-teal-600">
+  <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+    <h2
+      class="text-center text-4xl font-bold tracking-tight text-gray-1q00 sm:text-5xl"
+    >
+      Lesen Sie die Bewertungen unserer Kunden.
+    </h2>
+
+    <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
+
+      <blockquote class="rounded-lg bg-teal-50 p-6 shadow-lg sm:p-8">
+        <div class="grid gap-2">
+        <div>
+            <p class="mb-0.5 text-xl font-semibold text-teal-900">Toller Urlaub - super schönes Haus in bester Lage</p>
+          </div>
+          <div class="flex justify-left gap-0.5 text-teal-400">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+          </div>
+          <div>
+            <p class="mt-0.5 text-lg font-medium text-teal-700">Kristina M.</p>
+          </div>
+          <div>
+            <p class="-mt-1 text-gray-400">18. Juli 2023</p>
+          </div>
+        </div>
+
+        <p class="mt-4 text-gray-700">
+        Wir hatten eine tolle Woche auf Poel. Wir kommen schon 10 Jahre nach Poel und haben immer in anderen Unterkünften gewohnt. Diese Haus war nun das Schönste. Es war sehr gemütlich eingerichtet und toll ausgestattet. Es hat uns wirklich nichts gefehlt und die Heimreise viel uns sehr schwer. Viele schöne Details waren vor Ort. Eine schnelle, freundliche und einfache Kommunikation mit Eigentümer/Verwalter war jederzeit gegeben. Wir haben noch vor Ort für das kommende Jahr gebucht und freuen uns aufs Haus und die kleine idyllische Insel.
+        </p>
+      </blockquote>
+
+      <blockquote class="rounded-lg bg-teal-50 p-6 shadow-lg sm:p-8">
+        <div class="grid gap-2">
+        <div>
+            <p class="mb-0.5 text-xl font-semibold text-teal-900">Ferienhaus am Meer</p>
+          </div>
+          <div class="flex justify-left gap-0.5 text-teal-400">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+          </div>
+          <div>
+            <p class="mt-0.5 text-lg font-medium text-teal-700">Angelika C.</p>
+          </div>
+          <div>
+            <p class="-mt-1 text-gray-400">15. Juni 2023</p>
+          </div>
+        </div>
+
+        <p class="mt-4 text-gray-700">
+        Wir waren eine Woche in dem gut ausgestatteten Ferienhaus, das nur 2 min vom Strand entfernt steht. Haben uns sehr wohl gefühlt. Alles in allem sehr ruhig auf der Insel. Wer das mag ist dort genau richtig. Leider sind Resturants nicht mehr alle offen.Super Anbindung mit dem Bus nach Wismar.
+        </p>
+      </blockquote>
+
+      <blockquote class="rounded-lg bg-teal-50 p-6 shadow-lg sm:p-8">
+        <div class="grid gap-2">
+        <div>
+            <p class="mb-0.5 text-xl font-semibold text-teal-900">Tolles Ostsee-FH auf Insel Poel</p>
+          </div>
+          <div class="flex justify-left gap-0.5 text-teal-400">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+          </div>
+          <div>
+            <p class="mt-0.5 text-lg font-medium text-teal-700">Rainer K.</p>
+          </div>
+          <div>
+            <p class="-mt-1 text-gray-400">30. Aug. 2023</p>
+          </div>
+        </div>
+
+        <p class="mt-4 text-gray-700">
+        Wir haben 3 wunderschone Urlaubs-Wochen in dem FH auf Insel Poel verbracht. Das FH ist super ausgestattet und es hat alles gepasst, so dass wir uns wie zu Hause gefuehlt haben.
+        </p>
+      </blockquote>
+    </div>
+  </div>
+</section>
+  )
+}
+
 function Home() {
   return (
     <div>
@@ -13,6 +105,7 @@ function Home() {
           </a>
         </div>
       </div>
+      <Testimonials/>
       <section className="home-container" id="home-about">
       <div className="gradient-overlay">
         <div className="container">

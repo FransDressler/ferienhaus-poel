@@ -24,7 +24,7 @@ class Footer extends React.Component {
       
               <hr />
               <div className="grid grid-cols-1 lg:grid-cols-3 w-full flex-wrap-reverse gap-8 m-6">
-              <p className="text-gray-200 lg:col-span-2 sm:text-center md:text-center lg:text-right font-bold ">
+              <p className="text-gray-200 lg:col-span-2 sm:text-center md:text-center lg:text-right font-bold">
                 © 2023 - Template developed by <a href="https://fransdressler.vercel.app" className="text-gray-400 hover:text-teal-400 transition ease-in-out pb-1">Frans Dressler</a>
               </p>
               <ul className="flex flex-col gap-1 text-right">

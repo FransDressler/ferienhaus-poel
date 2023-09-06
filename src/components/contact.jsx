@@ -17,8 +17,8 @@ function Contact() {
                         rel="noreferrer"
                         target="_blank"
                         class="cta-btn cta-btn--resume"
-                        href="mailto:frans.dressler@gmx.com"
-                        >frans.dressler@gmx.com
+                        href="mailto:tine.noetzel@gmx.de"
+                        >tine.noetzel@gmx.de
                         </a> <br />
                         <a
                         rel="noreferrer"
@@ -33,7 +33,7 @@ function Contact() {
                 <h3 className="ff-sans-normal text-dark fs-500">Buchen Sie jetzt!</h3>
                 <p>Unter folgendem Link können Sie jetzt Ihren Traumurlaub buchen.</p>
                 <div className="btn-flex">
-                    <a href="https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5037076?uni_id=3590060&childrenCount=0&noDates=true&utm_source=direct&utm_medium=social&utm_campaign=earned:homeaway:sharecopylink:DEU&utm_content=5037076&oc=cxOAmbx49L85qt86U3_g0" class="cssbuttons-io-button bg-dark text-white"> Buchen
+                    <a href="/buchen" class="cssbuttons-io-button bg-dark text-white"> Buchen
                       <div class="icon">
                         <i className='fa-solid fa-cart-shopping text-dark'></i>
                       </div>
@@ -44,7 +44,7 @@ function Contact() {
                 <h3 className="ff-sans-normal text-accent fs-500">Sind Sie an einer Website interessiert?</h3>
                 <p>Kontaktieren Sie mich jetzt oder schauen Sie auf meiner Website vorbei.</p>
                 <div className="btn-flex">
-                    <a href="fransdressler.vercel.app"  class="cssbuttons-io-button bg-med text-white "> Website
+                    <a href="https://fransdressler.vercel.app"  class="cssbuttons-io-button bg-med text-white "> Website
                       <div class="icon">
                         <i className='fa-brands fa-edge text-med'></i>
                       </div>
