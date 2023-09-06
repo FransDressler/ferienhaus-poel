@@ -17,7 +17,7 @@ const HouseCard = ({index, name, street, island, location, maxPersons, bedrooms,
          Fläche: {space}
         </p>
         <p className="text-gray-50 text-xl  font-semibold mt-4 text-base">
-         Preis: {price}
+         Preis: {price} €
         </p>
         <button onClick={onBookClick} className=" text-teal-50 font-semibold hover:text-teal-800 text-lg py-2 px-4 border border-teal-100 hover:border-transparent rounded hover:bg-teal-50 mt-20">
             Angebot Buchen
@@ -194,7 +194,7 @@ class Booking extends React.Component {
                                     <label for="guest" className="mb-3 block text-base font-bold">
                                         Anzahl der Gäste
                                     </label>
-                                    <input onChange={(event) => {this.setState({number_of_guests: event.target.value})}} type="number" name="guest" id="guest" placeholder="5" min="0" className="w-full appearance-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"/>
+                                    <input onChange={(event) => {this.setState({number_of_guests: event.target.value})}} type="number" name="guest" id="guest" placeholder="0" min="0" className="w-full appearance-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"/>
                                 </form>
                         </div>
                     </div>

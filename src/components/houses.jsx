@@ -35,6 +35,9 @@ function Houses() {
                   <li className="ml-7">110qm</li>
                   <li className="ml-7">max. Anzahl an Personen: 5</li>
                 </ul>
+                <button class="home-about-btn text-white">
+                    <a className="fs-500 ff-sans-normal text-amber-900 " href="/haus1">Haus besichtigen  <i class="fa fa-arrow-right"></i></a>
+                </button>
                </p>
              </div>
              <div>
@@ -56,6 +59,9 @@ function Houses() {
                   <li className="ml-7">90qm</li>
                   <li className="ml-7">maximale Anzahl an Personen: 6</li>
                 </ul>
+                <button class="home-about-btn text-white">
+                    <a className="fs-500 ff-sans-normal text-amber-900 " href="/haus2">Haus besichtigen  <i class="fa fa-arrow-right"></i></a>
+                </button>
                </p>
              </div>
                  

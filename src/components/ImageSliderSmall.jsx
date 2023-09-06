@@ -34,7 +34,7 @@ const ImageSliderSmall = ({ slides }) => {
       {/* <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} /> */}
 
-      <i className="fa fa-angle-left arrow text-white" onClick={prevSlide}></i>
+      <i className="fa fa-angle-left cursor-pointer z-20 fa-3x m-6 text-white" onClick={prevSlide}></i>
       
       {slides.map((slide, index) => {
         return (
@@ -51,17 +51,17 @@ const ImageSliderSmall = ({ slides }) => {
         );
       })}
 
-    <i className="fa fa-angle-right arrow text-white" onClick={nextSlide}></i>
+    <i className="fa fa-angle-right cursor-pointer z-20 fa-3x m-6 text-white" onClick={nextSlide}></i>
     </section>
 
     {isModalOpen && (
-        <div className="fixed flex flex-col align-start top-0 left-0 w-full h-full bg-teal-900 bg-opacity-80">
+        <div className="fixed grid place-items-center align-start top-0 left-0 w-full h-full z-20 bg-teal-900 bg-opacity-80" style={{zIndex: "500"}}>
           <button 
-            className="text-white text-2xl cursor-pointer border w-min" 
+            className="text-white text-2xl cursor-pointer w-min top-[6rem] left-4 absolute" 
             
             onClick={closeModal}
           >
-            <i class="fa-solid fa-x"></i>
+            <i class="fa-solid fa-x fa-2x"></i>
           </button>
           <img className="object-contain max-h-[90%] max-w-[90%]" src={modalImageSrc} alt="Modal" />
         </div>

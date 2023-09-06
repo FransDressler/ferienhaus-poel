@@ -13,6 +13,8 @@ import Overview from './components/overview.jsx';
 import Location from './components/location.jsx';
 import Impressum from './components/impressum';
 import Regulation from './components/privacyRegulation';
+import House1 from './components/house1';
+import House2 from './components/house2';
 
 import './styles/styles.scss'
 
@@ -42,6 +44,8 @@ class App extends React.Component {
         <Route path="/standorte" element={<Location/>}/>
         <Route path="/datenschutzrichtlinien" element={<Regulation/>} />
         <Route path="/impressum" element={<Impressum/>} />
+        <Route path="/haus1" element={<House1/>} />
+        <Route path="/haus2" element={<House2/>} />
         <Route path="/anmeldung" element={this.state.isSignedIn ? <Overview/> : <SignIn changeSignIn={this.changeSignIn}/>} />
       </Routes>
       <Footer/> 

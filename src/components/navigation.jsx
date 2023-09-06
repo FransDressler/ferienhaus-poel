@@ -4,7 +4,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-teal-50/30 backdrop-blur-md p-6 fixed w-screen  mt-0 lg:bg-transparent lg:backdrop-blur-none" style={{zIndex: '20'}}>
+        <nav className="flex items-center justify-between flex-wrap bg-teal-50/30 backdrop-blur-md z-50 p-6 fixed w-screen  mt-0 lg:bg-transparent lg:backdrop-blur-none">
             <div className="block lg:hidden">
                 <button className="flex items-center px-3 py-2 rounded text-gray-200 border-gray-400 hover:text-white" onClick={() => setIsOpen(!isOpen)}>
                   {isOpen ?  
@@ -20,6 +20,12 @@ function Navbar() {
                     </a>
                     <a href="/häuser" className="block mt-2 lg:mt-0 lg:inline-block lg:mt-0 text-gray-50 hover:text-teal-200 mr-4 font-medium ff-sans-normal text-lg">
                         Häuser
+                    </a>
+                    <a href="/haus1" className="block mt-2 lg:mt-0 lg:inline-block lg:mt-0 text-gray-50 hover:text-teal-200 mr-4 font-medium ff-sans-normal text-lg">
+                        Ferienhaus - "Einfach schön"
+                    </a>
+                    <a href="/haus2" className="block mt-2 lg:mt-0 lg:inline-block lg:mt-0 text-gray-50 hover:text-teal-200 mr-4 font-medium ff-sans-normal text-lg">
+                        Ferienhaus - "Peuler Insel Leiw"
                     </a>
                     <a href="/standorte" className="block mt-2 lg:mt-0 lg:inline-block lg:mt-0 text-gray-50 hover:text-teal-200 mr-4 font-medium ff-sans-normal text-lg">
                         Standorte
