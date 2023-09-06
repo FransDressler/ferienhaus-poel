@@ -221,10 +221,10 @@ class Booking extends React.Component {
                             }
                         </div>
                     </div>
-                    <h2 className="text-lg font-semibold ff-sans-normal text-white">{this.state.checkError}</h2>
                     <button onClick={this.checkAvailability} className=" text-teal-50 font-semibold hover:text-teal-800 text-lg py-2 px-4 border border-teal-100 hover:border-transparent rounded hover:bg-teal-50">
                         Angebot prüfen
                     </button>
+                    <h2 className="text-xl font-semibold ff-sans-normal text-white">{this.state.checkError}</h2>
                     {this.state.availableHouses.length === 0 ?
                         <p>{this.state.noHouseAvailable}</p> :
                     <div className="flex flex-wrap items-center">

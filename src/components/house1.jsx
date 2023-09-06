@@ -7,6 +7,7 @@ function house1() {
             <div className="flex flex-col lg:flex-row items-center max-w-screen ">
                 <div className="flow p-8">
                     <h1 className="text-3xl lg:text-5xl font-semibold text-gray-200 ff-sans-normal">Ferienhaus - "Einfach schön"</h1>
+                    
                     <ul className="flex align-center lg:flex-row list-none flex-col max-w-screen ">
                         <li>
                             <div className="font-medium text-lg ff-sans-normal">Ferienhaus</div>
@@ -25,6 +26,7 @@ function house1() {
                             <div className="text-sm text-gray-300">Küche, Essbereich, Esszimmer</div>
                         </li>
                     </ul>
+                    
                     <p className="max-w-screen ">
                     Genießen Sie einen Traumurlaub unter Reet: das große, helle und gemütliche Wohnzimmer mit schönem Essbereich lässt keine Wünsche offen!
                     <br/><br/>
@@ -46,7 +48,9 @@ function house1() {
                     </p>
                 </div>
                 <div className="flex flex-col items-center">
+                    
                     <ImageSliderSmall slides={SliderDataHouse1} />
+                    {/* <p className="pt-5 text-teal-200 ff-sans-normal text-left text-lg">Zum Reetmoor 21<br/>23999 Insel Poel<br/>OT Schwarzer Buch</p> */}
                     <a href="/buchen" class=" mt-20 relative inline-flex items-center px-5 py-4 overflow-hidden text-lg font-medium text-teal-50 border border-2 border-white rounded-md group hover:bg-white hover:text-teal-400">
                         
                         <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
